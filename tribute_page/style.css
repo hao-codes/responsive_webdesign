@@ -1,0 +1,55 @@
+body {
+    font-family: system-ui;
+    background: #9e65c4;
+    color: gold;
+    text-align: center;
+}
+
+.img-div {
+    text-align: center;
+}
+
+img {
+    display: block;
+    height: auto;
+    max-width: 100%;
+    margin: auto;
+}
+
+.img-caption {
+    margin: 15px 0px 15px 0px;
+    color: black;
+}
+
+.tribute-info {
+    position: left;
+    color: white;
+    position: center;
+    text-align: center;
+}
+
+ul {
+    list-style: none;
+    max-width: 700px;
+    margin: 10px auto 0 auto;
+    display: inline-block;
+    position: center;
+    text-align: left;
+}
+
+li {
+    margin: 0px 0 20px 0;
+}
+
+.quote {
+    font-style: italic;
+}
+
+#tribute-link {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: white;
+}
