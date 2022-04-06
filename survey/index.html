@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="eng">
+
+<head>
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <main id="main">
+        <h1 id="title"> Survey Questions</h1>
+        <p id="description">A short questionnaire about general information of students </p>
+        <form id="survey-form">
+            <label id="name-label" for="name">Name:</label> <br> <input type="name" id="name" name="name" placeholder="Name" required><br>
+            <label id="email-label" for="email">Email: </label> <br> <input type="email" id="email" name="email" placeholder="Email" required><br>
+            <label id="number-label" for="number">Year of Birth <i>(optional)</i>: <br> </label><input type="number" id="number" name="number" min=1900 max=2022 placeholder=" Year"> <br>
+            <label for="gender">Gender:</label>
+            <br><select id="dropdown" name="gender">
+                <option value="Female">Female</option>
+                <option value="Male">Male</option>
+                <option value="transgender">Transgender</option>
+                <option value="nonbinary_nonconfirming">Non binary/Non confirming</option>
+                <option value="noresponse">Prefer not to respond</option>
+            </select>
+            <p>
+                In which year are you?
+            </p>
+            <label for="firstyear"><input id="firstyear" type="radio" value ="firstyear" name="year">First Year</label> <br>
+            <label for="secondyear"><input id="secondyear" type="radio" value ="secondyear" name="year">Second Year</label> <br>
+            <label for="thirdyear"><input id="thirdyear" type="radio" value ="thirdyear" name="year">Third Year</label> <br>
+            <label for="fourthyear"><input id="fourthyear" type="radio" value ="fourthyear" name="year">Fourth Year</label>
+            <p>At which Faculty do you study ? </p>
+            <label for="Arts"><input id="Arts" type="checkbox" name="faculty" value="arts"> Arts</label> <br>
+            <label for="Business"><input id="Business" type="checkbox" name="faculty" value="business"> Business & Economics</label> <br>
+            <label for="engineering"><input id="engineering" type="checkbox" name="faculty" value="engineering"> Engineering</label> <br>
+            <label for="Law"><input id="Law" type="checkbox" name="faculty" value="law"> Law</label> <br>
+            <label for="Science"><input id="Science" type="checkbox" name="faculty" value="science"> Science</label> <br>
+            <label for="others"><input id="others" type="checkbox" name="faculty" value="others"> Others</label> <br>
+
+            <p>Any comments/feedback regarding this survey? <i>(optional)</i> </p>
+            <textarea rows="5" cols="60" name="comment" form="usrform" placeholder="Comments">
+    </textarea> <br>
+            <button id="submit"> Submit </button>
+        </form>
+    </main>
+</body>
+
+</html>

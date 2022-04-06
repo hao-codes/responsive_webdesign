@@ -1,0 +1,96 @@
+* {
+    font-family: monospace;
+    text-align: center;
+}
+
+@media (max-width: 600px) {
+    font-size: 10px;
+}
+
+header {
+    text-align: center;
+}
+
+#header {}
+
+#header-img {
+    position: relative;
+    width: 15%;
+    max-width: 20%;
+    height: auto;
+}
+
+#nav-bar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#nav-bar a {
+    float: left;
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+#features {
+    postion: left;
+}
+
+ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    position: center;
+    text-align: left;
+    list-style: none;
+}
+
+li {
+    postion: left;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:link {
+    color: green;
+}
+
+a:hover {
+    color: black;
+}
+
+
+}
+main {
+    display: flex;
+    justiy-content: center;
+}
+.section {
+    font-size: 14px;
+}
+#prices {
+    display: flex;
+    flex-direction: column;
+}
+.prices {
+    display: flex;
+    gap: 30px;
+    justify-content: space-evenly;
+}
+h3 {
+    font-size: 18px;
+}
+.offers h4 {
+    background-color: lightgrey;
+    text-align: center;
+}
+.offers {
+    border: 1px;
+    border-color: black;
+}

@@ -1,0 +1,21 @@
+#title {
+    color: black;
+}
+
+main {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#survey-form {
+    color: black;
+    font-family: Arial;
+    font-size: 16px;
+    background-color: lightblue;
+    border-style: inset;
+    text-align: left;
+    width: 550px;
+}
